@@ -33,7 +33,7 @@
       <!-- Sidebar Holder -->
       <nav id="sidebar">
         <div class="sidebar-header">
-          <h3>Bootstrap Sidebarr</h3>
+          <h3>Bootstrap Sidebar</h3>
           <strong>BS</strong>
         </div>
 
@@ -372,7 +372,12 @@
             >
               Thêm người dùng
             </button>
-            <button id="btnCapNhat" type="button" class="btn btn-success">
+            <button
+              onclick="capNhatNV()"
+              id="btnCapNhat"
+              type="button"
+              class="btn btn-success"
+            >
               Cập nhật
             </button>
             <button
@@ -415,6 +420,8 @@
         });
       });
     </script>
+    <!-- my validate -->
+    <script src="./validate.js"></script>
     <!-- my model -->
     <script src="./model.js"></script>
 
